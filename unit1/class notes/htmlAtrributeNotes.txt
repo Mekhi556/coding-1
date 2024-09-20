@@ -1,0 +1,3 @@
+Ever wbesite that is accesible on the internet is built upon HTML
+ An atrribute is placed in the opening tag of an html element rightafter the tag
+An atrribute foloows a key/value paring combination
