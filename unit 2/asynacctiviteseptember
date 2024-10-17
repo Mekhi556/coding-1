@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html>
-<style>
-
-    div  {   
-
-   
-    background-color:white
-   height: 200 px;
-        width:300 px;
-      margin:10 px;
-    }
-
-
-    body   {
-        background-color: aliceblue;
-    }
-      
-    
-
-
-
-</style>
-
 <head>
-       <title>HTML Tutorial</title>
-</head>
+    <title>HTML Tutorial</title>
+    <style>
+        div {
+            background-color: white;
+            height: 200px; 
+            width: 300px; 
+            margin: 10px; 
+        }
 
+        body {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
 <body>
-      <div>Home</div>
-      <div>News</div>
-      <div>Contact   About</div>
+    <div>Home</div>
+    <div>News</div>
+    <div>Contact   About</div>
+
+    <div style="background-color: dimgray; height: 50px;">Home   News   Contact  About</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="background-color: dimgray; height:50px;">Home   News   Contact  About  </div>
-
-
+ 
 
 
 
