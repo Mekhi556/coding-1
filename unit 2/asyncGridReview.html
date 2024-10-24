@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    <title>Grid Layout</title>
+    <style>
+        .divRules {
+            background-color: blueviolet;
+            height: 25px; 
+            width: 25px;  
+            margin: 10px; 
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            gap: 10px; 
+        }
+        .grid-item {
+            background-color: lightgray; 
+            text-align: center; 
+            padding: 25px; 
+            border: 1px solid black; 
+        }
+        .mainContainer {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="divRules"></div>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+</body>
+</html>
